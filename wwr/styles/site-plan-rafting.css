@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu Sans Mono&displau=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu Sans Mono&displau=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
