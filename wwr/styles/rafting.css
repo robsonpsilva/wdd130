@@ -10,7 +10,8 @@
     --secondary-color:#f5efed;
     --accent1-color: #2292a4;
     --accent2-color: #bdbf09;
-    
+    --paragraph-color:#3b013b;
+
     --heading-font: Roboto, serif;
     --paragraph-font: Ubuntu Sans Mono, serif;
 
@@ -23,14 +24,12 @@ body {
     font-family: var(--paragraph-font);
     max-width: 100%;
     padding: 20px;
+    color: var(--primary-color);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
 }
-p{
-    color: var(--accent1-color) ;
-}
+
 header{
     display:flex;
     justify-content: space-between;
