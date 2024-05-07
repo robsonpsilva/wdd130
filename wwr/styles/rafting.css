@@ -21,7 +21,7 @@
     }
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 100%;
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -32,8 +32,10 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--accent1-color);
+    border: #0f0a0a solid 1px;
+    
 }
 header nav{
     background-color: var(--nav-background-color);
@@ -61,5 +63,5 @@ header nav a:hover{
     background-color: var(--nav-hover-background-color);
 }
 header img{
-    width: 100px;
+    width: 80px;
 }
