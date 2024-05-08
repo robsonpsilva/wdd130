@@ -29,7 +29,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
-
 header{
     display:flex;
     justify-content: space-between;
@@ -66,4 +65,22 @@ header nav a:hover{
 }
 header img{
     width: 80px;
+}
+main div{
+    display:block;
+    position: relative;
+}
+main div h1{
+    position:absolute;
+    top: 15px;
+    left: 42%;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#client img{
+    float: right;
+    width: 30px;
 }
