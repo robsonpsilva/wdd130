@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 :root{
+
     --primary-color:#0f0a0a;
     --secondary-color:#f5efed;
     --accent1-color: #2292a4;
     --accent2-color: #bdbf09;
-    --paragraph-color:#3b013b;
-
+    
     --heading-font: Roboto, serif;
     --paragraph-font: Ubuntu Sans Mono, serif;
 
@@ -19,7 +19,10 @@
     --nav-link-color: #f8f8ff;
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
-    }
+
+
+    --paragraph-color:#3b013b;
+}
 body {
     font-family: var(--paragraph-font);
     font-size:small;
