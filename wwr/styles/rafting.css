@@ -15,7 +15,7 @@
     
     --heading-font: Roboto, serif;
     --heading-color:black;  
-    --secondary-heading-color:goldenrod;
+    --secondary-heading-color:#DAA520;
 
     --paragraph-font: "Patrick Hand SC", cursive;
     --paragraph-color:black;
@@ -24,6 +24,8 @@
     --nav-link-color: #f8f8ff;
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
+
+    --special-article-background-color: rgb(205, 229, 199);
 
 }
 
@@ -50,6 +52,60 @@ body {
     max-width: 800px;
     padding: 20px;
     color: var(--primary-color);
+}
+
+/* Styling div element */
+main div{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+/* Styling class hero */
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Special style class adressing only images inside the <article> tag */
+img.special{
+    position: relative;
+    margin: 20px;
+    float: right;
+    width: 80px;
+}
+
+
+main div h1{
+    /* Positioning the h1 element inside the <div> element */
+    display: block;
+    position:absolute;
+    top: 15px;
+}
+main div article{
+    position: absolute;
+    top: 50px;
+    background-color:var(--special-article-background-color);
+    margin: 30px;
+}
+
+main div article p{
+    margin:20px
+}
+
+main section h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:var(--secondary-heading-color);
+}
+
+
+.rafting-images img{
+    width: 300px;
+}
+
+footer nav img{
+    width: 30px;
 }
 
 header{
@@ -86,51 +142,3 @@ header nav a:hover{
 header img{
     width: 120px;
 }
-main div{
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-main div h1{
-    display: block;
-    position:absolute;
-    top: 15px;
-    color:var(--primary-color);
-}
-main div article{
-    position: absolute;
-    top: 50px;
-    background-color:cornflowerblue;
-    margin: 30px;
-}
-
-main div article p{
-    margin:20px
-}
-
-main section h2{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:var(--secondary-heading-color);
-}
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-img.special{
-    position: relative;
-    margin: 20px;
-    float: right;
-    width: 80px;
-}
-
-.rafting-images img{
-    width: 300px;
-}
-
-footer nav img{
-    width: 30px;
-}
-
