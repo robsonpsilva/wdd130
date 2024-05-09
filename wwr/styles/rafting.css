@@ -69,7 +69,7 @@ header nav a:hover{
     background-color: var(--nav-hover-background-color);
 }
 header img{
-    width: 80px;
+    width: 120px;
 }
 main div{
     width: 100%;
