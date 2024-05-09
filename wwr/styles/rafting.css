@@ -21,7 +21,7 @@
     --nav-hover-background-color: #f5f5dc;
 
 
-    --paragraph-color:#3b013b;
+    --paragraph-color:black;
 }
 body {
     font-family: var(--paragraph-font);
@@ -117,4 +117,8 @@ img.special{
 
 footer nav img{
     width: 30px;
+}
+
+p{
+    color: var(--paragraph-color);
 }
