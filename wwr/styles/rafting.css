@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
 /* A pre defined style set */
 *{
     margin: 0;
@@ -13,10 +14,10 @@
     --accent2-color: #bdbf09;
     
     --heading-font: Roboto, serif;
-    --heading-color:black;
+    --heading-color:black;  
     --secondary-heading-color:goldenrod;
 
-    --paragraph-font: Ubuntu Sans Mono, serif;
+    --paragraph-font: "Patrick Hand SC", cursive;
     --paragraph-color:black;
 
     --nav-background-color: #222;
@@ -27,14 +28,22 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /* Defining the font that will be used for <h> tags */
+    /* Styling headings */
+    /* Defining font and color that will be used for <h> tags */
     font-family: var(--heading-font);
     color: var(--heading-color);
 }
 p{
-
+    /* Styling paragraphs */
+     /* Defining font and color that will be used for <p> tags */
     font-family:  var(--paragraph-font);
     color: var(--paragraph-color);
+}
+figcaption{
+    /* Styling figcaption */
+    /* Defining font and font size hat will be used for <h> tags */
+    font-family: var(--heading-font);
+    font-size: smaller;
 }
 
 body {
@@ -46,11 +55,7 @@ body {
 header{
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    /* padding: 10px; */
-    /* background-color: var(--accent1-color); */
-    /* border: #0f0a0a solid 1px; */
-    
+    align-items: center; 
 }
 header nav{
     background-color: var(--nav-background-color);
