@@ -91,6 +91,12 @@ main div article p{
     margin:20px
 }
 
+main section h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: goldenrod;
+}
+
 .hero img{
     display: block;
     width: 100%;
