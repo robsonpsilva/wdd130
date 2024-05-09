@@ -26,6 +26,7 @@
     --nav-hover-background-color: #f5f5dc;
 
     --special-article-background-color: rgb(205, 229, 199);
+    --general-background-color:rgb(226, 226, 238);
 
 }
 
@@ -49,11 +50,15 @@ figcaption{
 }
 
 body {
+    border: 2px solid;
     max-width: 800px;
     padding: 20px;
     color: var(--primary-color);
 }
 
+main{
+    background-color: var(--general-background-color);
+}
 /* Styling div element */
 main div{
     width: 100%;
@@ -119,14 +124,11 @@ header nav{
     display:inline-flex;
     margin-left: 25px;
     width:fit-content; 
-    border: 1px solid;
-    border-color:black;
- 
+    border: 2px solid;
 }
 header nav a{
     color: var(--nav-hover-link-color);
     border: 1px solid;
-    border-color:#f5efed;
     text-decoration: none;
     padding: 1rem;
 }
@@ -141,4 +143,22 @@ header nav a:hover{
 }
 header img{
     width: 120px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--secondary-color);
+    height: 34px;
+}
+
+.paragraph-footer{
+    font-family: var(--heading-font);
+    margin-left: 160px;
+}
+.footer-nav{
+    margin-top: 3px;
+    margin-left: 100px;    
 }
