@@ -13,26 +13,36 @@
     --accent2-color: #bdbf09;
     
     --heading-font: Roboto, serif;
+    --heading-color:black;
+    --secondary-heading-color:goldenrod;
+
     --paragraph-font: Ubuntu Sans Mono, serif;
+    --paragraph-color:black;
 
     --nav-background-color: #222;
     --nav-link-color: #f8f8ff;
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
 
-
-    --paragraph-color:black;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    /* Defining the font that will be used for <h> tags */
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+p{
+
+    font-family:  var(--paragraph-font);
+    color: var(--paragraph-color);
+}
+
 body {
-    font-family: var(--paragraph-font);
-    font-size:small;
     max-width: 800px;
     padding: 20px;
     color: var(--primary-color);
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-}
+
 header{
     display:flex;
     justify-content: space-between;
@@ -97,7 +107,7 @@ main div article p{
 main section h2{
     padding-top: 10px;
     padding-bottom: 10px;
-    color: goldenrod;
+    color:var(--secondary-heading-color);
 }
 .hero img{
     display: block;
@@ -119,6 +129,3 @@ footer nav img{
     width: 30px;
 }
 
-p{
-    color: var(--paragraph-color);
-}
