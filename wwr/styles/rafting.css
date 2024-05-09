@@ -108,3 +108,11 @@ img.special{
     float: right;
     width: 80px;
 }
+
+.rafting-images img{
+    width: 300px;
+}
+
+footer nav img{
+    width: 30px;
+}
