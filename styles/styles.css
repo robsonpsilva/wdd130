@@ -48,7 +48,7 @@ p {
 
 body{
     max-width: 840px;
-    font-size: medium;
+    font-size:small;
     font-family: Roboto, serif;
 }
 
@@ -72,7 +72,7 @@ aside img{
 aside h2{
     position: absolute;
     top: 20px;
-    left: 130px;
+    left: 110px;
 }
 
 
@@ -90,7 +90,7 @@ footer {
 /* Class Selectors */
 
 .box {
-    margin-top: 2rem;
+    margin-top: 5px;
     margin-left: 1rem;
     border: 1px solid rgba(1, 1, 53, 0.1);
     padding: 1rem;
