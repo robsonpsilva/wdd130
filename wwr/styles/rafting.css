@@ -15,7 +15,7 @@
     
     --heading-font: Roboto, serif;
     --heading-color:black;  
-    --secondary-heading-color:      #6b4e06;
+    --secondary-heading-color:rgb(2, 2, 97);
 
     --paragraph-font: "Patrick Hand SC", cursive;
     --paragraph-color:black;
@@ -26,9 +26,9 @@
     --nav-hover-background-color: #f5f5dc;
 
     --special-article-background-color: cadetblue;
-    --general-background-color:rgb(226, 226, 238);
+    --general-background-color:rgb(5, 5, 5);
 
-}
+}   
 
 h1, h2, h3, h4, h5, h6 {
     /* Styling headings */
