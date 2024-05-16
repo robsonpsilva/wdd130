@@ -25,7 +25,7 @@
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
 
-    --special-article-background-color: rgb(205, 229, 199);
+    --special-article-background-color: cadetblue;
     --general-background-color:rgb(226, 226, 238);
 
 }
@@ -197,16 +197,20 @@ main section div{
 }
 .rafting-images h2{
     text-align: center;
+    background-color: cadetblue;   
+    
 }
 
 .rafting-images div{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:cadetblue;
 }
 
 .rafting-images img{
     width: 100px;
+    
 }
 
 .rafting-images figure figcaption{
