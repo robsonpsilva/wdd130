@@ -104,8 +104,9 @@ footer {
 
 header, .grid, footer {
     max-width: 840px;
+    /* Centering header ".grid" and footer */
     margin: 0 auto;
-    justify-content: center;
+    
 }
 
 
