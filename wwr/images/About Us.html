@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/wwr/about.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Including default tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <meta name="description" content="Find out more about who we are, our contacts, address, among others.">
+    <meta name="author" content="Robson Paulo da Silva">
+
+    <!-- Including Style Sheet -->
+    
+
+    <!-- Including Patrick Hand SC Static -->
+    
+    
+    
+<style type="text/css" id="operaUserStyle"></style><link rel="stylesheet" href="./About Us_files/rafting.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./About Us_files/css2" rel="stylesheet"></head>
+<body>
+    <header>
+        <img src="./About Us_files/logo.jpg" alt="Rafting Travel Company Logo">
+        <nav>
+            <a href="http://127.0.0.1:5500/wwr/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/wwr/about.html">About</a>
+            <a href="http://127.0.0.1:5500/wwr/trips.html">Trips</a>
+            <a href="http://127.0.0.1:5500/wwr/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./About Us_files/hero.jpg" alt="Hero">
+            <h1>Rafting Travel</h1>
+            <article>
+                <img src="./About Us_files/happy_client.jpg" alt="Happy client" class="special">
+                <p>Rafting Travel an adventure company. <b>Our purpose</b> is to offer our clients safe rafting trips, 
+                    in stunning places, with the best quality equipment and support from experienced and highly 
+                    trained professionals.Our mission is to offer our customers close contact with nature, 
+                    exciting experiences and lots of fun, with the security of assistance from qualified 
+                    professionals and at a fair price. <b>Our moto</b> is, 
+                    <em>Rafting Travel adventure and joy your way!</em></p>
+            </article>
+        </div>
+        <section>
+            <div>
+                <h2 id="header1">History</h2>
+                <p id="paragraph1">
+                    Ten years on the market, our company started in 2014 in the city of Natal, the beautiful capital of the Brazilian state of Rio Grande do Norte. From there we expanded until in 2020 we reached all cities in the northeast region of Brazil.
+                </p>
+                <img src="./About Us_files/directions.webp" alt="History" id="image1">
+                <p id="paragraph2">
+                    From 2021 we began our adventure in the beautiful city of Rio de Janeiro, from where we headed to Minas Gerais, Espírito Santo and finally São Paulo. This growth is motivated by the love we feel for what we do, quality of service and a dream that never ceases to inspire us.
+                </p>
+            </div>
+        </section>
+        <section class="rafting-images">
+            <h2>Adventure Awaits You!</h2>
+            <!-- 
+                I used the <figure> tag to group the images and eliminate a 
+                validation error that said that the section container did not 
+                allow having an img tag directly inside it.
+             -->
+            <div>
+             <!-- I added the <figcaption> tag to associate titles with images -->
+                <figure>
+                    <img src="./About Us_files/wwr_image1.jpg" alt="Rafting in Peaceful Rapids">
+                    <figcaption>Peaceful Rapids</figcaption>
+                </figure>
+                
+                <figure>   
+                    <img src="./About Us_files/wwr_image2.jpg" alt="Rafting in Colorado River">
+                    <figcaption>Colorado River</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="./About Us_files/wwr_image3.jpg" alt="Rafting in Pastaza River">
+                    <figcaption>Pastaza River</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./About Us_files/wwr_image4.jpg" alt="Rafting in Smokey River">
+                    <figcaption>Smokey River</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./About Us_files/wwr_image5.jpg" alt="Rafting in Arkansas River">
+                    <figcaption>Arkansas River</figcaption>
+                </figure>  
+            </div> 
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="paragraph-footer">©2024 ⚓ Rafting Travel ⚓ Robson Paulo da Silva</p>
+        <nav class="footer-nav">
+            <a href="https://facebook.com/"><img src="./About Us_files/facebook_icon.webp" alt="Facebook"></a>
+            <a href="htpps://twitter.com"><img src="./About Us_files/twitter_icon.webp" alt="Twitter"></a>
+            <a href="https://instagram.com/"><img src="./About Us_files/instagram_icon.webp" alt="Instagram"></a>
+        </nav>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

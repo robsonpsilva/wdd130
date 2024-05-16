@@ -194,20 +194,12 @@ main section div{
     padding-left: 10px;
     padding-right: 10px;
 }
-.rafting-images h2{
-    text-align: center;
-}
 
-.rafting-images div{
-    display: flex;
+#imagelist{
+    
     justify-content: space-around;
     align-items: center;
 }
-
 .rafting-images img{
     width: 100px;
-}
-
-.rafting-images figure figcaption{
-    text-align: center;
 }

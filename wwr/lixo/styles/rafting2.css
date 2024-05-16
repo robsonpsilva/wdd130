@@ -50,8 +50,8 @@ figcaption{
 }
 
 body {
-    border: 2px solid;
-    max-width: 800px;
+    border: 1px solid black;
+    max-width: 900px;
     padding: 20px;
     color: var(--primary-color);
 }
@@ -59,62 +59,11 @@ body {
 main{
     background-color: var(--general-background-color);
 }
-/* Styling div element */
-main div{
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-/* Styling class hero */
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-/* Special style class adressing only images inside the <article> tag */
-img.special{
-    position: relative;
-    margin: 20px;
-    float: right;
-    width: 80px;
-}
-
-
-main div h1{
-    /* Positioning the h1 element inside the <div> element */
-    display: block;
-    position:absolute;
-    top: 15px;
-}
-main div article{
-    position: absolute;
-    top: 50px;
-    background-color:var(--special-article-background-color);
-    margin: 30px;
-}
-
-main div article p{
-    margin:20px
-}
-
-main section h2{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:var(--secondary-heading-color);
-}
-
-
-
-
-footer nav img{
-    width: 30px;
-}
 
 header{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
 }
 header nav{
@@ -144,70 +93,3 @@ header img{
     width: 120px;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--secondary-color);
-    height: 34px;
-}
-
-.paragraph-footer{
-    font-family: var(--heading-font);
-    margin-left: 160px;
-}
-.footer-nav{
-    margin-top: 3px;
-    margin-left: 100px;    
-}
-
-main section div{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;   
-    background-color: antiquewhite;
-}
-
-#header1{
-    padding-top: 10px;
-    padding-left: 60px;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-#paragraph1{
-    padding-left: 10px;
-    grid-column-start:1;
-    grid-column-end: 3;
-}
-
-#paragraph2{
-    padding: 1px;
-    grid-column-start:4;
-    grid-column-end: 6;
-}
-
-#image1{
-    width: 200px;
-    grid-column-start:3;
-    grid-row-start: 2;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.rafting-images h2{
-    text-align: center;
-}
-
-.rafting-images div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.rafting-images img{
-    width: 100px;
-}
-
-.rafting-images figure figcaption{
-    text-align: center;
-}
