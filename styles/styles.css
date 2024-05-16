@@ -12,15 +12,17 @@
 }
 nav {
     display:flex;
-    background-color: rgb(3, 35, 62);
     padding: 10px;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    background-color: rgb(3, 35, 62);
 }
 nav a {
-    color: white;
     display: block;
     padding: 20px;
+    color: white;
+    background-color: rgb(3, 35, 62);
+    text-decoration: none;
 }
 h1 {    
     color: steelblue;
@@ -28,6 +30,7 @@ h1 {
 }
 main{
     grid-column: 2/3;
+    margin: 10px;
 }
 main img {
     position: relative;
@@ -53,7 +56,7 @@ body{
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
     align-items: center;
     background-color: #eee;
@@ -72,7 +75,7 @@ aside img{
 aside h2{
     position: absolute;
     top: 20px;
-    left: 110px;
+    left: 135px;
 }
 
 
@@ -108,6 +111,7 @@ header, .grid, footer {
 
 .grid{
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 10px;
 }
