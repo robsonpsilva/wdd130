@@ -1,0 +1,23 @@
+
+.section_history{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.section_history h2{
+    grid-column-start: 2;
+}
+.section_history img{
+    grid-column: 2/2;
+}
+.section_history p{
+    grid-column: 1/1;
+    <h2 class="grid-item">History</h2>
+    <img src="images/logo.jpg" alt="History" class="grid-item">
+    <p class="grid-item">
+        1- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laudantium explicabo ex nemo quam adipisci iure, voluptatibus repudiandae minima unde numquam sunt voluptatem. Deserunt architecto modi nostrum iusto, fugiat quisquam!
+    </p>
+    <p class="grid-item">
+        2- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laudantium explicabo ex nemo quam adipisci iure, voluptatibus repudiandae minima unde numquam sunt voluptatem. Deserunt architecto modi nostrum iusto, fugiat quisquam!
+    </p> 

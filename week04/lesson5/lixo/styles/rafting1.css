@@ -15,7 +15,7 @@
     
     --heading-font: Roboto, serif;
     --heading-color:black;  
-    --secondary-heading-color:rgb(2, 2, 97);
+    --secondary-heading-color:#DAA520;
 
     --paragraph-font: "Patrick Hand SC", cursive;
     --paragraph-color:black;
@@ -25,10 +25,10 @@
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
 
-    --special-article-background-color: cadetblue;
-    --general-background-color:rgb(5, 5, 5);
+    --special-article-background-color: rgb(205, 229, 199);
+    --general-background-color:rgb(226, 226, 238);
 
-}   
+}
 
 h1, h2, h3, h4, h5, h6 {
     /* Styling headings */
@@ -86,7 +86,6 @@ main div h1{
     display: block;
     position:absolute;
     top: 15px;
-    color: white;
 }
 main div article{
     position: absolute;
@@ -100,13 +99,13 @@ main div article p{
 }
 
 main section h2{
-    padding-top: 10px;
-    padding-bottom: 10px;
     color:var(--secondary-heading-color);
 }
 
 
-
+.rafting-images img{
+    width: 300px;
+}
 
 footer nav img{
     width: 30px;
@@ -115,7 +114,7 @@ footer nav img{
 header{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
 }
 header nav{
@@ -163,56 +162,17 @@ header img{
     margin-left: 100px;    
 }
 
-main section div{
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;   
-    background-color: antiquewhite;
-}
-
-#header1{
-    padding-top: 10px;
-    padding-left: 60px;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-#paragraph1{
-    padding-left: 10px;
-    grid-column-start:1;
-    grid-column-end: 3;
-}
-
-#paragraph2{
-    padding: 1px;
-    grid-column-start:4;
-    grid-column-end: 6;
-}
-
-#image1{
-    width: 200px;
-    grid-column-start:3;
-    grid-row-start: 2;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.rafting-images h2{
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 50px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
-    background-color: cadetblue;   
-    
-}
-
-.rafting-images div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color:cadetblue;
-}
-
-.rafting-images img{
-    width: 100px;
-    
-}
-
-.rafting-images figure figcaption{
-    text-align: center;
-}
+  }
+  

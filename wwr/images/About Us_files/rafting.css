@@ -15,7 +15,7 @@
     
     --heading-font: Roboto, serif;
     --heading-color:black;  
-    --secondary-heading-color:rgb(2, 2, 97);
+    --secondary-heading-color:#DAA520;
 
     --paragraph-font: "Patrick Hand SC", cursive;
     --paragraph-color:black;
@@ -25,10 +25,10 @@
     --nav-hover-link-color:#ea4f4c;
     --nav-hover-background-color: #f5f5dc;
 
-    --special-article-background-color: cadetblue;
-    --general-background-color:rgb(5, 5, 5);
+    --special-article-background-color: rgb(205, 229, 199);
+    --general-background-color:rgb(226, 226, 238);
 
-}   
+}
 
 h1, h2, h3, h4, h5, h6 {
     /* Styling headings */
@@ -86,7 +86,6 @@ main div h1{
     display: block;
     position:absolute;
     top: 15px;
-    color: white;
 }
 main div article{
     position: absolute;
@@ -195,24 +194,12 @@ main section div{
     padding-left: 10px;
     padding-right: 10px;
 }
-.rafting-images h2{
-    text-align: center;
-    background-color: cadetblue;   
-    
-}
 
-.rafting-images div{
-    display: flex;
+#imagelist{
+    
     justify-content: space-around;
     align-items: center;
-    background-color:cadetblue;
 }
-
 .rafting-images img{
     width: 100px;
-    
-}
-
-.rafting-images figure figcaption{
-    text-align: center;
 }
