@@ -48,3 +48,7 @@ button{
     background-color: lightgray;
     border: 1px solid black;
 }
+.inputlabel{
+    margin-left: 3px;
+    padding: 2px;
+}
