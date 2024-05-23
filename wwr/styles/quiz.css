@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    width: 480px;
+    height: fit-content;
+    border: 1px solid;
+}
+
+b,
+h1{
+    color: blue;
+}
+div,
+fieldset{
+   margin: 5px;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    width: 450px;
+    margin: 5px;
+
+}
+
