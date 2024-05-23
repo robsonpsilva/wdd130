@@ -28,3 +28,17 @@ button{
 
 }
 
+.form-item{
+    display: grid;  
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    margin: 2px;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 2px;
+}
+
