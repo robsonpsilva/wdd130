@@ -256,4 +256,12 @@ main section div{
     grid-column: 2/5;
     padding: 10px;
 }
+.formsection{
+    display: block;
+    background-color: rgba(237, 230, 230, 0.946);
+    padding: 5px;
+}
+.formitems{
+    padding-bottom: 10px;
+}
 
