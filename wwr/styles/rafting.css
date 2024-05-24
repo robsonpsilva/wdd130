@@ -145,7 +145,7 @@ header img{
     width: 120px;
 }
 
-.footer{
+.base{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,11 +154,11 @@ header img{
     height: 34px;
 }
 
-.paragraph-footer{
+.paragraph-base{
     font-family: var(--heading-font);
     margin-left: 160px;
 }
-.footer-nav{
+.base-nav{
     margin-top: 3px;
     margin-left: 100px;    
 }
