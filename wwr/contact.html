@@ -62,11 +62,11 @@
                 <p>
                     Email:contact@rafting.com
                 </p>
-                <div>
-                    <a href="mailto:contact@rafting.com">
-                        <input class="emailbutton c1" type="button" value="Contact Email">
-                    </a>
-                </div>
+                <form action="mailto:contact@rafting.com">
+                    <button>
+                        Contact Email
+                    </button>
+                </form>
             </div>
             <div class="adressmap alternativegrid c1">
                 <h2>Headquarters</h2>
@@ -95,7 +95,7 @@
         </div>
         <div class = "fclient">
             <h3 class="f1">Send Us a Message</h3>
-            <form> 
+            <form class="contactus"> 
                 <label for="fullname">Full name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Full name">
                 
@@ -105,19 +105,19 @@
                 <fieldset>
                     <legend>Purpose</legend>
                     
-                    <label for="gen"><input type="radio" id="general" name="gen"> General inquiry</label>
+                    <label for="gen"><input type="radio" id="gen" name="gen"> General inquiry</label>
                     
 
-                    <label for="reser"><input type="radio" id="reservation" name="reser">  Reservation Question</label>
+                    <label for="reser"><input type="radio" id="reser" name="reser">  Reservation Question</label>
                     
 
-                    <label for="suggest"><input type="radio" name="suggest" id="suggestion"> Website Suggestion</label>
+                    <label for="suggest"><input type="radio" name="suggest" id="suggest"> Website Suggestion</label>
                     
 
-                    <label for="inmessage">Leave your message here</label>
-                    <textarea name="inmessage" id="inmess"></textarea>
+                    <label for="inmess">Leave your message here</label>
+                    <textarea name="inmess" id="inmess"></textarea>
 
-                    <label for="chk1"><input type="checkbox" name="chk1" id="subscr"> Please subscribe me to the monthly newsletter</label> 
+                    <label for="chk1"><input type="checkbox" name="chk1" id="chk1"> Please subscribe me to the monthly newsletter</label> 
                 </fieldset>
                 <div class="bcontainer">
                     <button type="submit">Submit</button>
