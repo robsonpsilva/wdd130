@@ -26,7 +26,7 @@
     --nav-hover-background-color: #f5f5dc;
 
     --special-article-background-color: cadetblue;
-    --general-background-color:rgb(5, 5, 5);
+    --general-background-color:rgb(254, 249, 249);
 
 } 
 
@@ -213,6 +213,13 @@ header img{
 
 /* Week 05 Styling */
 
+/* Common Styling */
+.c1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:small
+}
+
 /* Styling first div element */
 .part1{
     width: 100%;
@@ -223,14 +230,106 @@ header img{
 
 .specialdiv{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
+    gap: 5px;
+    padding-top: 15px;
+    border: 1px solid;
+}
+.alternativegrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35px 30px 40px 30px;
+}
+
+.alternativegrid>p,h2, h3{
+    text-align: left;
 }
 
 /* Styling heading element of contact section */
 .headgriditem{
+    border-radius: 10px;
     grid-row: 1/3;
-    grid-column: 1/6;
-    text-align: center;
-    background-color:lightgray
+    grid-column: 2/8;
+    background-color:lightgray;
 }
+
+/* Styling phone 1 section */
+.phonemessage{
+    border-radius: 10px;
+    grid-row: 4;
+    grid-column: 2/5;
+    background-color:wheat; 
+}
+.phonemessage>div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size:small;
+}
+.phonemessage>div>img{
+    float: left;
+    width: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Styling Email area */
+.emailcontact{
+    border-radius: 10px;
+    grid-row: 4;
+    grid-column: 5/8;
+    background-color:wheat;  
+    padding-bottom: 5px;
+}
+
+.emailbutton{
+    background-color: #0f0a0a;
+    color: white;
+}
+
+/* Styling Address and map area  */
+
+.adressmap{
+    grid-column: 2/4;
+    grid-row: 10;
+}
+
+.map{
+    grid-row: 10;
+    grid-column: 4/8;
+}
+.map>iframe{
+    border: 1px solid;
+    width: 370px;
+    height: 250px; 
+}
+
+.employeegrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.employeegrid>h3{
+    grid-row: 2;
+    grid-column: 1/4;
+    text-align: center;
+}
+.employeegrid>figure{
+    grid-row: 3;
+}
+
+.employeegrid>figure>img{
+    grid-row: 3;
+    width: 200px;
+}
+
+.employeegrid>figure>figcaption{
+    font-size: 12px;
+}
+.p1{
+    text-align: center;
+}
+
