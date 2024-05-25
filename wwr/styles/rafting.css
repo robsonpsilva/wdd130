@@ -196,19 +196,19 @@ textarea{
 .base{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     text-align: center;
     background-color: var(--secondary-color);
-    height: 34px;
+    height: 40px;
 }
 
 .paragraph-base{
     font-family: var(--heading-font);
-    margin-left: 160px;
+    /* margin-left: 160px; */
 }
 .base-nav{
     margin-top: 3px;
-    margin-left: 100px;    
+    /* margin-right: 100px;    */
 }
 
 #header1{
