@@ -196,7 +196,7 @@ textarea{
 .base{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     text-align: center;
     background-color: var(--secondary-color);
     height: 40px;
