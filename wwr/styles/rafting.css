@@ -400,3 +400,14 @@ textarea{
     padding-bottom: 30px;
 }
 
+/* Styling Trips page */
+
+.firstelement{
+    grid-column: 1/9;
+}
+.secondelement{
+    grid-column: 1/9;
+}
+.thirdelement{
+    grid-column: 1/9;
+}
