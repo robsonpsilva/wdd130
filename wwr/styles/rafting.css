@@ -54,7 +54,7 @@ p{
      /* Defining font and color that will be used for <p> tags */
     font-family:  var(--paragraph-font);
     color: var(--paragraph-color);
-    font-size: medium;
+    font-size: 15px;
 }
 figcaption{
     /* Styling figcaption */
@@ -94,7 +94,6 @@ main div article{
 main div article p{
     margin:20px
 }
-
 
 main section div{
     display: grid;
@@ -153,6 +152,10 @@ when the mouse pointer passes over it */
 }
 /* End of header formatting section. */
 
+/* Common alignment styling */
+.c1{
+    text-align: center;
+}
 
 /* Start of the section that formats the form. */
 
@@ -165,29 +168,19 @@ when the mouse pointer passes over it */
     border-radius: 5px;
     background-color:ivory;
     display: grid;
-}
-
-.bcontainer{
-    text-align: center;
-}
-.f1{
-    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 5px;
+    margin: 0;
 }
 .fclient{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
-label,
-button,
-input,
-select,
-textarea {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
+.fclient>h3{
+    text-align: center;
 }
+
 
 fieldset{
     display: grid;
@@ -197,7 +190,6 @@ fieldset{
     margin-bottom: 5px;
 }
 
-/* Start of the section that formats the form. */
 
 legend{
     padding: 2px;
@@ -221,12 +213,81 @@ button:hover{
     background-color: cadetblue;
 }
 
+/* End of the section that formats the form. */
+
+/* Styling heading element of contact section */
+.headgriditem{
+    border-radius: 10px;
+    grid-row: 1/3;
+    grid-column: 2/8;
+    background-color:lightgray;
+}
+
+/* Styling phone 1 section */
+.phonemessage{
+    border-radius: 10px;
+    grid-row: 4;
+    grid-column: 2/5;
+    background-color:wheat; 
+}
+.phonemessage>div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size:small;
+}
+.phonemessage>div>img{
+    float: left;
+    width: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.specialdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 5px;
+    padding-top: 15px;
+    border: 1px solid;
+}
+
 input, 
 select,
 textarea{
     padding: 5px;
     font-size: large;
 } 
+
+
+/* Start styling the History section of the About.html page */
+
+#header1{
+    padding-top: 10px;
+    padding-left: 55px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#paragraph1{
+    padding: 10px;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+#paragraph2{
+    padding: 10px;
+    grid-column-start:4;
+    grid-column-end: 6;
+}
+
+#image1{
+    width: 190px;
+    grid-column-start:3;
+    grid-row-start: 2;
+    padding: 10px;
+}
+/* End of styling the History section */
 
 /* This section formats the footer. */
 
@@ -252,31 +313,7 @@ footer nav img{
     /* margin-right: 100px;    */
 }
 
-#header1{
-    padding-top: 10px;
-    padding-left: 60px;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-#paragraph1{
-    padding-left: 10px;
-    grid-column-start:1;
-    grid-column-end: 3;
-}
 
-#paragraph2{
-    padding: 1px;
-    grid-column-start:4;
-    grid-column-end: 6;
-}
-
-#image1{
-    width: 200px;
-    grid-column-start:3;
-    grid-row-start: 2;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 .rafting-images h2{
     text-align: center;
     background-color: cadetblue;   
@@ -313,14 +350,6 @@ footer nav img{
     justify-content: center;
 }
 
-.specialdiv{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    gap: 5px;
-    padding-top: 15px;
-    border: 1px solid;
-}
 .alternativegrid{
     display: grid;
     grid-template-columns: 1fr;
@@ -331,33 +360,7 @@ footer nav img{
     text-align: left;
 }
 
-/* Styling heading element of contact section */
-.headgriditem{
-    border-radius: 10px;
-    grid-row: 1/3;
-    grid-column: 2/8;
-    background-color:lightgray;
-}
 
-/* Styling phone 1 section */
-.phonemessage{
-    border-radius: 10px;
-    grid-row: 4;
-    grid-column: 2/5;
-    background-color:wheat; 
-}
-.phonemessage>div{
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    font-size:small;
-}
-.phonemessage>div>img{
-    float: left;
-    width: 40px;
-    align-items: center;
-    padding: 10px;
-}
 
 /* Styling Email area */
 .emailcontact{
