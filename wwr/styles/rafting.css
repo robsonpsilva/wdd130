@@ -136,7 +136,7 @@ main section h2{
 
 /* Fixing the link color, so it doesn't change 
 if the link is clicked. */
-.comp nav a:link, nav a:visited{
+.comp_nav nav a:link, nav a:visited{
     color: var(--nav-link-color);
 }
 
@@ -207,11 +207,16 @@ button{
     background-color:aliceblue;
 }
 
-/* class="bconteiner" */
-
 button:hover{
     background-color: cadetblue;
 }
+
+input, 
+select,
+textarea{
+    padding: 5px;
+    font-size: large;
+} 
 
 /* End of the section that formats the form. */
 
@@ -252,14 +257,6 @@ button:hover{
     padding-top: 15px;
     border: 1px solid;
 }
-
-input, 
-select,
-textarea{
-    padding: 5px;
-    font-size: large;
-} 
-
 
 /* Start styling the History section of the About.html page */
 
