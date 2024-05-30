@@ -73,14 +73,23 @@ img.special{
     width: 80px;
     border:  3px;
 }
-main div h1{
-    /* Positioning the h1 element inside the <div> element */
+
+
+.m_d_h1{
     position:absolute;
     top: 35px;
     color: wheat;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.m_d_h2{
+    position:absolute;
+    top: 25px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 main div article{
     position: absolute;
     top: 10vh;
@@ -180,7 +189,7 @@ when the mouse pointer passes over it */
 
 fieldset{
     display: grid;
-    grid-gap: 2px;
+    grid-gap: 3px;
     padding: 3px;
     border: 1px solid;
     margin-bottom: 5px;
@@ -213,6 +222,11 @@ textarea{
     padding: 5px;
     font-size: large;
 } 
+
+.fset button{
+    text-align: center;
+}
+
 
 /* End of the section that formats the form. */
 
@@ -511,5 +525,41 @@ thead tr th:nth-of-type(4) {
     width:100vw;
     border: 2px solid red;
 }
+
+.f_act{
+    display: flex;
+    justify-content: space-between;
+}
+.f_act form{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 380px;
+}
+.f_act button{
+    margin-top:10px;
+    margin-bottom: 8px;
+    height: 25px;
+}
+.f_act legend{
+    color: #0f0a0a;
+}
+
+.contact{
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+}
+.contact p{
+    font-size: larger;
+}
+
+.contact img{
+    width: 240px;
+    height: 150px;
+}
+
 
 
