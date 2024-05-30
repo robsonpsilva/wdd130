@@ -35,7 +35,7 @@
 body {
     padding-left: 7px;
     padding-bottom: 10px;
-    /* max-width: 800px; */
+    width: 860px;
     color: var(--primary-color);
 }
 
@@ -75,10 +75,11 @@ img.special{
 }
 main div h1{
     /* Positioning the h1 element inside the <div> element */
-    display: block;
     position:absolute;
-    top: 15px;
-    color: wheat
+    top: 35px;
+    color: wheat;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 main div article{
     position: absolute;
@@ -117,7 +118,7 @@ main section h2{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
-    margin-left: 65px;
+    margin-left: 90px;
     width:fit-content; 
     border: 2px solid;
 }
@@ -348,9 +349,12 @@ footer nav img{
     display: flex;
     position: relative;
     align-self:center ;
-    justify-content: space-around;
+    justify-content:space-between;
 }
-
+.part2{
+    padding: 1px;
+    max-width: 849px;
+}
 .alternativegrid{
     display: grid;
     grid-template-columns: 1fr;
