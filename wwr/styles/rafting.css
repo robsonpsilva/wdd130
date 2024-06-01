@@ -50,13 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--heading-color);
 }
-p{
-    /* Styling paragraphs */
-     /* Defining font and color that will be used for <p> tags */
-    font-family:  var(--paragraph-font);
-    color: var(--paragraph-color);
-    font-size: 15px;
-}
+
 figcaption{
     /* Styling figcaption */
     /* Defining font and font size hat will be used for <h> tags */
@@ -223,9 +217,6 @@ textarea{
     font-size: large;
 } 
 
-.fset button{
-    text-align: center;
-}
 
 
 /* End of the section that formats the form. */
@@ -319,9 +310,7 @@ footer nav img{
     font-family: var(--heading-font);
     margin-left: 210px;
 }
-.paragraph-base1{
-    font-family: var(--heading-font);
-}
+
 .base-nav{
     margin-top: 2px;
     padding: 5px;
