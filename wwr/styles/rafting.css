@@ -530,6 +530,9 @@ thead tr th:nth-of-type(4) {
     display: flex;
     justify-content: space-between;
     border: 1px ridge wheat;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 .f_act form{
     padding-left: 10px;
