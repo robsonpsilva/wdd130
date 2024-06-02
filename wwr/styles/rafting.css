@@ -35,7 +35,8 @@
 body {
     padding-left: 7px;
     padding-bottom: 10px;
-    width: 1024px;
+    padding-right: 7px;
+    width: 100%;
     color: var(--primary-color);
 }
 
@@ -72,7 +73,7 @@ img.special{
 .m_d_h1{
     position:absolute;
     top: 35px;
-    color: wheat;
+    color: white;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -86,7 +87,7 @@ img.special{
 
 main div article{
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     background-color: var(--accent1-color);
     margin: 30px;
 }
@@ -113,17 +114,19 @@ main section h2{
 /* This section formats the Header.*/
 .t_hd{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center; 
+    padding-left: 10px;
 }
 /* Formating navigation component */
 .comp_nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
-    margin-left: 90px;
-    width:fit-content; 
+    width:auto; 
     border: 2px solid;
+    grid-column: 4;
+
 }
 
 /* Formating navigation link */
@@ -173,6 +176,7 @@ when the mouse pointer passes over it */
     padding: 5px;
     margin: 0;
 }
+
 .fclient{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -256,6 +260,7 @@ textarea{
     grid-template-rows: auto auto auto auto auto;
     gap: 5px;
     padding-top: 15px;
+    padding-bottom: 15px;
     border: 1px solid;
 }
 
@@ -357,11 +362,12 @@ footer nav img{
 .part2{
     padding: 1px;
     width:100%;
+    height: 320px;
 }
 .alternativegrid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 35px 30px 40px 30px;
+    grid-template-rows: 40px 40px 40px 30px;
 }
 
 .alternativegrid>p,h2, h3{
@@ -380,7 +386,7 @@ footer nav img{
 /* Styling Address and map area  */
 
 .adressmap{
-    grid-column: 2/4;
+    grid-column: 3/4;
     grid-row: 10;
 }
 .adressmap>p{
@@ -389,7 +395,7 @@ footer nav img{
 
 .map{
     grid-row: 10;
-    grid-column: 4/8;
+    grid-column: 6/7;
 }
 .map>iframe{
     border: 1px solid;
@@ -404,6 +410,7 @@ footer nav img{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 10px;
+    padding-bottom: 15px;
 }
 
 .employeegrid>h3{
