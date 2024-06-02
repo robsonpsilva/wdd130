@@ -111,7 +111,7 @@ main section h2{
 
 
 /* This section formats the Header.*/
-.theader{
+.t_hd{
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items: center; 
@@ -147,7 +147,7 @@ when the mouse pointer passes over it */
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-.theader img{
+.t_hd img{
     width: 100px;
 }
 /* End of header formatting section. */
