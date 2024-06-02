@@ -597,5 +597,6 @@ thead tr th:nth-of-type(4) {
     border: 4px outset wheat;
     border-radius: 5px;
     width: 25%;
+    height: 85%;
 
 }
