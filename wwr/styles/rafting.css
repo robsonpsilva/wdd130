@@ -35,7 +35,7 @@
 body {
     padding-left: 7px;
     padding-bottom: 10px;
-    width: 860px;
+    width: 1024px;
     color: var(--primary-color);
 }
 
@@ -356,7 +356,7 @@ footer nav img{
 }
 .part2{
     padding: 1px;
-    max-width: 849px;
+    width:100%;
 }
 .alternativegrid{
     display: grid;
