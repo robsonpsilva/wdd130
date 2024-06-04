@@ -299,8 +299,7 @@ textarea{
 footer nav img{
     width: 30px;
 }
-
-.base{
+footer{
     display: flex;
     margin-top: 2px;
     padding-top: 3px;
