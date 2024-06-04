@@ -314,7 +314,13 @@ footer nav img{
 
 .paragraph-base{
     font-family: var(--heading-font);
-    margin-left: 210px;
+    margin-left:40%;
+}
+
+
+.paragraph-base1{
+    font-family: var(--heading-font);
+    margin-left: 10px;
 }
 
 .base-nav{
